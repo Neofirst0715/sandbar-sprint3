@@ -1,0 +1,2 @@
+Real conversations: 80 of 150 people; 150 scans, 35 cards, 22 voice notes, 15 list lines.
+WARNING: COLUMN CHECK (read this first): scan_id = 'scan_id'; scanned_at = 'scanned_at'; scanned_by = 'scanned_by'; company = 'company'; first = 'first_name'; last = 'last_name'; title = 'title'; email = 'email'; phone = 'phone'; city = 'city'; province = 'province'; share = 'share_with_exhibitors'; rating = 'rating'; notes = 'notes'

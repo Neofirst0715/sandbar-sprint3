@@ -1,0 +1,212 @@
+id,section,title,status,critical,expected,actual
+BL1,Baseline,Toronto,PASS,True,At least 80 right; nobody who must not be emailed has a draft,80 of 80; wrong: none; must-not-email with a draft: none; privacy audit: clean
+BL2,Baseline,"Toronto, reworded notes",PASS,True,At least 79 right; nobody who must not be emailed has a draft,79 of 80; wrong: ['Ben Kowalczyk']; must-not-email with a draft: none; privacy audit: clean
+BL3,Baseline,"Toronto, renamed columns",PASS,True,At least 80 right; nobody who must not be emailed has a draft,80 of 80; wrong: none; must-not-email with a draft: none; privacy audit: clean
+BL4,Baseline,Moncton,PASS,True,At least 36 right; nobody who must not be emailed has a draft,36 of 37; wrong: ['(unplaced) Shediac chiro with the red van']; must-not-email with a draft: none; privacy audit: clean
+BL5,Baseline,Halifax,PASS,True,At least 45 right; nobody who must not be emailed has a draft,45 of 45; wrong: none; must-not-email with a draft: none; privacy audit: clean
+A1,Attack A-V,"Old address removed, rescanned with a new address",PASS,True,No draft; high-risk flag naming the match,status='NO DRAFT: HIGH RISK: on the do-not-email list since 2026-01-' draft=no step=demo from=Owen lang=English to='new@willow.ca'
+A2,Attack A-V,"Removed, then the clinic changed name and the address too",PASS,True,No draft; flagged as identity unsure for Erin,"status='NO DRAFT: HIGH RISK, identity unsure: may be Ann Lee, who as' draft=no step=demo from=Owen lang=English to='ann@northshore.ca'"
+A3,Attack A-V,"Same name, different person at a different clinic",PASS,True,"Not treated as removed: waits for Erin, and after 'Different person' gets a draft","status='READY: read, fix a word, send' draft=yes step=demo from=Owen lang=English to='ann@northshore.ca'"
+A4,Attack A-V,"Same address, different name",PASS,True,No draft: an address match is enough,status='NO DRAFT: HIGH RISK: on the do-not-email list since 2026-01-' draft=no step=demo from=Owen lang=English to='old@willow.ca'
+A5,Attack A-V,"Removed, then a new demo ask, a voice note and a booking",PASS,True,"No draft, whatever the sales signals say",status='NO DRAFT: HIGH RISK: on the do-not-email list since 2026-01-' draft=no step=demo from=Owen lang=English to='old@willow.ca'
+A6,Attack A-V,Typing OK or a sender on a confirmed removal,PASS,True,Still no draft: nothing typed releases the list,status='NO DRAFT: HIGH RISK: on the do-not-email list since 2026-01-' draft=no step=demo from=Owen lang=English to='old@willow.ca'
+A7,Attack A-V,'Different person' typed on a confirmed removal,PASS,True,Still no draft: Different only works on 'might be',status='NO DRAFT: HIGH RISK: on the do-not-email list since 2026-01-' draft=no step=demo from=Owen lang=English to='old@willow.ca'
+B1,Consent,N flag + asked for a demo at the booth,PASS,True,"HOLD — LEGAL REVIEW REQUIRED, no draft, shows consent and the ask",status='HOLD — LEGAL REVIEW REQUIRED: Share flag N and no card: badg' draft=no step=demo from=Owen lang=English to='b@o.ca'
+B2,Consent,N flag + card + asked for pricing,PASS,True,"HOLD, no draft",status='HOLD — LEGAL REVIEW REQUIRED: Share flag N with a card: badg' draft=no step=pricing from=Owen lang=English to='b@o.ca'
+B3,Consent,"Y flag + 'No marketing emails, just send quote'",PASS,True,"Plain price only: no demo link, trial, or list. Flagged for Erin","status='READY: read, fix a word, send' draft=yes step=pricing from=Owen lang=English to='b@o.ca' body=Bea, good to meet you in Testville. You asked about pricing. It's $34 per practitioner per month. That's all you asked for, and I won't add you to any list. Owen."
+B4,Consent,Y flag + clear demo ask,PASS,False,Normal demo draft (the gate doesn't block people who consented),"status='READY: read, fix a word, send' draft=yes step=demo from=Owen lang=English to='b@o.ca'"
+B5,Consent,N flag + asked for a trial,PASS,True,"HOLD, no draft",status='HOLD — LEGAL REVIEW REQUIRED: Share flag N and no card: badg' draft=no step=trial from=Owen lang=English to='b@o.ca'
+B6a,Consent,"Y flag, then an event says consent was withdrawn",PASS,True,No draft,status='NO DRAFT: HIGH RISK: asked to be removed on 2026-10-21. Matc' draft=no step=demo from=Owen lang=English to='b@o.ca'
+B6b,Consent,"Y flag, then a reply says 'do not contact me again'",PASS,True,"No draft, and on the list for later shows",status='NO DRAFT: HIGH RISK: asked to be removed on 2026-10-21. Matc' draft=no step=demo from=Owen lang=English to='b@o.ca'
+B6c,Consent,"Y flag, then a note says she withdrew permission",PASS,True,"No draft, and on the list",status='NO DRAFT: HIGH RISK: the notes say they withdrew permission ' draft=no step=demo from=Owen lang=English to='b@o.ca'
+B7,Consent,N flag + someone types OK,PASS,True,Still held: only the law question releases it,status='HOLD — LEGAL REVIEW REQUIRED: Share flag N and no card: badg' draft=no step=demo from=Owen lang=English to='b@o.ca'
+B8,Consent,"N flag + 'no mailing list, just pricing' (the Amira case)",PASS,True,HOLD with the ask shown: the old bypass is gone,status='HOLD — LEGAL REVIEW REQUIRED: Share flag N and no card: badg' draft=no step=pricing from=Owen lang=English to='b@o.ca'
+B9,Consent,The hold reaches Erin's page with its reason,PASS,False,Erin's view of the page shows consent = N and the ask,found in Erin's section: True
+B10,Consent,Share column says 'no',PASS,True,Held,status='HOLD — LEGAL REVIEW REQUIRED: Share flag N and no card: badg' draft=no step=demo from=Owen lang=English to='b@o.ca'
+B11,Consent,Share column says 'FALSE',PASS,True,Held,status='HOLD — LEGAL REVIEW REQUIRED: Share flag N and no card: badg' draft=no step=demo from=Owen lang=English to='b@o.ca'
+B12,Consent,Share column says '0',PASS,True,Held,status='HOLD — LEGAL REVIEW REQUIRED: Share flag N and no card: badg' draft=no step=demo from=Owen lang=English to='b@o.ca'
+B13,Consent,Share column says 'Opt-out',PASS,True,Held,status='HOLD — LEGAL REVIEW REQUIRED: Share flag N and no card: badg' draft=no step=demo from=Owen lang=English to='b@o.ca'
+B14,Consent,Share column says 'declined',PASS,True,Held,status='HOLD — LEGAL REVIEW REQUIRED: Share flag N and no card: badg' draft=no step=demo from=Owen lang=English to='b@o.ca'
+B15,Consent,Share column blank or unclear,PASS,True,No draft until someone checks,status='NO DRAFT: No consent value in the scan export: held until ch' draft=no step=demo from=Owen lang=English to='b@o.ca'
+B16,Consent,"'no emails please, phone only'",PASS,True,A call reminder and no email text at all,"status='CALL: asked for a call and no email, so no draft' draft=no step=call back from=Owen lang=English to='b@o.ca'"
+C1,Attack A-V,"Badge 'pricing?', card 'trial', later voice note 'book a demo'",PASS,False,Next step demo; source conflict flagged; trial not lost,"status='READY: read, fix a word, send' draft=yes step=demo from=Owen lang=English to='c@f.ca' flags=['Source conflict: went with the voice note (demo), the fullest record of the conversation; also saw trial. Consent is checked separately.']"
+C2,Attack A-V,"Older voice 'wants a demo', newer card withdraws it",PASS,True,No demo draft; withdrawal flagged,"status='READY: read, fix a word, send' draft=yes step=thank-you note from=Owen lang=English to='c@f.ca'"
+C3,Consent,Conflict on someone with an N flag,PASS,True,Held: source order never overrides consent,status='HOLD — LEGAL REVIEW REQUIRED: Share flag N with a card: badg' draft=no step=demo from=Owen lang=English to='c@f.ca'
+C4,Attack A-V,Conflict on someone on the do-not-email list,PASS,True,No draft: source order never overrides removal,status='NO DRAFT: HIGH RISK: on the do-not-email list since 2026-01-' draft=no step=demo from=Owen lang=English to='c@f.ca'
+C5,Attack A-V,Sources disagree and no voice note settles it,PASS,False,Waits on Owen: not guessed,status='WAITING on Owen: decide first' draft=yes step=trial from=Owen lang=English to='c@f.ca'
+D1,Attack A-V,"Three people at Apex: demo, pricing, draw only",PASS,True,"Keith demo draft, Sarah pricing draft, the third excluded; nobody merged","status='READY: read, fix a word, send' draft=yes step=demo from=Owen lang=English to='k@apex.ca' | status='READY: read, fix a word, send' draft=yes step=pricing from=Owen lang=English to='s@apex.ca' | Pat: no row (not a real conversation)"
+D2,Attack A-V,"Keith's draft has nothing of Sarah's, and the other way",PASS,True,"No demo link for Sarah, no price for Keith","Keith: Keith, good to meet you in Testville. You asked to see a demo. Here's where to book the demo with Nadia: [DEMO LINK]. Owen. | Sarah: Sarah, good to meet you in Testville. You wanted the pricing in writing for your business partner. It's $34 per practitioner per month. Owen."
+D3,Attack A-V,One voice sentence: Keith wants a demo and Sarah wants pricing,PASS,True,Each gets their own ask,"status='READY: read, fix a word, send' draft=yes step=demo from=Owen lang=English to='k@apex.ca' | status='READY: read, fix a word, send' draft=yes step=pricing from=Owen lang=English to='s@apex.ca'"
+D4,Attack A-V,One voice sentence that can't be separated: 'both want a demo',PASS,True,Given to neither; goes to a person to place,"thank-you note/thank-you note general=[{'source': 'V0', 'text': 'Keith Urban and Sarah Lin both want a demo.', 'reason': ""One sentence asks for something and names Keith Urban and Sarah Lin. The tool can't tell who asked for what. Not given to either.""}]"
+D5,Attack A-V,'Jen Lee and Ravi Das want a demo',PASS,False,Both get the demo: a shared ask is clear,demo/demo
+E1,Day 30,"Show starts 09:00, booking 02:00 the same day",PASS,True,Pile = never written to,booking 2026-10-20 02:00 -> never written to
+E2,Day 30,"Booking Nov 25, well after the window",PASS,True,Pile = never written to,booking 2026-11-25 10:00 -> never written to
+E3,Day 30,Booking inside the window,PASS,True,Pile = booked a demo,booking 2026-11-19 10:00 -> booked a demo
+E4a,Day 30,Booking exactly at the deadline (Oct 21 17:00 + 30 days),PASS,True,Pile = booked a demo,booking 2026-11-20 17:00 -> booked a demo
+E4b,Day 30,One minute after the deadline,PASS,True,Pile = never written to,booking 2026-11-20 17:01 -> never written to
+E4c,Day 30,Later on the deadline day,PASS,True,Pile = never written to,booking 2026-11-20 23:00 -> never written to
+E6,Day 30,Booking during the show,PASS,True,Pile = booked a demo,booking 2026-10-20 15:00 -> booked a demo
+E5,Day 30,Booking with an unreadable time,PASS,True,"No crash, not counted, listed for Erin with the raw text","never written to; issues=[""Can't read the date 'sometime soon' on 'demo booked': not counted""]"
+E7,Day 30,Email sent before the show,PASS,True,"Not counted as written to, and doesn't stop a draft",never written to; status='NO DRAFT: a generic note more than three weeks after the sho' draft=no step=thank-you note from=Owen lang=English to='e@e.ca'
+E8,Day 30,Email sent after the window,PASS,True,"Not in the piles, but nobody is offered a second email",never written to; status='ALREADY WRITTEN TO (2026-12-25): do not send again' draft=yes step=thank-you note from=Owen lang=English to='e@e.ca'
+E9,Day 30,"Date with no time, on the deadline day",PASS,False,"Counted by the written default, flagged for Erin with the raw date","booked a demo; flags=['For Erin: demo booked on 2026-11-20: date with no time, on the day the window opens or closes: counted, check it.']"
+E10,Day 30,Raw time kept for Erin,PASS,False,Evidence shows the booking's own time,E1 at 2026-10-25 10:30: same email; heard: not given
+E11,Day 30,No readable show times at all,PASS,True,Bookings not counted; Erin told why,"never written to; [""Can't read the scan time 'not a date': not used for the show's dates"", ""No readable scan or voice-note times, so the show's dates are unknown. Bookings and trials are not counted.""]"
+E12,Day 30,Time with a zone offset,PASS,False,"Read as written, in the show's local time (rules.md)",booked a demo
+F1,Day 30,"Written to, then trial, then demo",PASS,True,One pile: booked a demo,"booked a demo, 1 row"
+F2,Day 30,"Written to, and it bounced",PASS,False,Never written to; Owen phones,never written to; status='NO DRAFT: Only address bounced (f@e.ca). Owen phones: .' draft=no step=demo from=Owen lang=English to='f@e.ca'
+F3,Day 30,"Booked, then cancelled",PASS,False,"Still counts (booked by day 30 counts), flagged for Erin","booked a demo; ['For Erin: demo cancelled on 2026-10-23 10:00. A booking by day 30 still counts in the piles (Nadia, Erin). Check it.']"
+F4,Day 30,Second run after a booking,PASS,False,No booking link offered again,"status='ALREADY BOOKED: no booking link' draft=yes step=demo from=Owen lang=English to='f@e.ca' Fay, I see you've booked a demo with Nadia. See you then. Ow"
+G1,Privacy,Partner suing her,PASS,True,"'suing|in trouble' in no draft, CSV, Sheet or page","body='Gil, good to meet you in Testville. Thanks for stopping by, and give me a shout if I can help. Owen.' leaks=[]"
+G2,Privacy,Wife's surgery,PASS,True,"'surgery|hospital|wife|distracted' in no draft, CSV, Sheet or page","body='Gil, good to meet you in Testville. Thanks for stopping by, and give me a shout if I can help. Owen.' leaks=[]"
+G5,Privacy,Divorce,PASS,True,"'divorce' in no draft, CSV, Sheet or page","body=""Gil, good to meet you in Testville. You asked to see a demo. Here's where to book the demo with Nadia: [DEMO LINK]. Owen."" leaks=[]"
+G6,Privacy,Chemo,PASS,True,"'chemo' in no draft, CSV, Sheet or page","body=""Gil, good to meet you in Testville. You asked to see a demo. Here's where to book the demo with Nadia: [DEMO LINK]. Owen."" leaks=[]"
+G7,Privacy,Laid off and crying,PASS,True,"'laid off|cried' in no draft, CSV, Sheet or page","body=""Gil, good to meet you in Testville. You wanted to try it. Here's where to start the trial: [TRIAL LINK]. I'm around if you get stuck. Owen."" leaks=[]"
+G8,Privacy,Money and drink,PASS,True,"'drinks|bankrupt|husband' in no draft, CSV, Sheet or page","body=""Gil, good to meet you in Testville. You asked about pricing. It's $34 per practitioner per month. Owen."" leaks=[]"
+G3,Privacy,'They hate Clinivo because customer support was rude',PASS,True,Keeps the business fact (on Clinivo); the complaint's words stay out,"body=""Gil, good to meet you in Testville. You mentioned you're on Clinivo, so if that ever starts getting messy, give me a shout. Owen."" leaks=[]"
+G4,Privacy,'His business partner wants the pricing in writing' (reverse test),PASS,True,Kept: a business partner isn't private. Pricing draft mentions the partner,"step=pricing body=""Gil, good to meet you in Testville. You wanted the pricing in writing for your business partner. It's $34 per practitioner per month. Owen."""
+G9,Privacy,"Personal remark on the scan note, the card and the list",PASS,True,In none of the files,leaks=[]
+G10,Privacy,Raw notes aren't left among the results,PASS,True,No raw copy of the notes in the results folder,"['Sandbar_follow_up.xlsx', 'day30_page.html', 'decisions.csv', 'drafts.csv', 'flags.csv', 'index.html', 'input_issues.csv', 'not_a_conversation.csv', 'people.csv', 'piles.csv', 'run_notes.txt']"
+G11,Privacy,A remark the word lists don't know,PASS,True,"Doesn't appear: exports are built from facts, not the note's words","body=""Gil, good to meet you in Testville. You asked to see a demo. Here's where to book the demo with Nadia: [DEMO LINK]. Owen."" leaks=[]"
+G12,Privacy,A finished draft contains a personal word,PASS,True,"Not offered: PRIVACY REVIEW REQUIRED, Erin told",status='PRIVACY REVIEW REQUIRED: no draft offered until Erin checks' draft=no step=demo from=Owen lang=English to='g@p.ca'
+G13,Privacy,Output audit finds a leak planted in a file,PASS,True,The audit reports it,{'x.csv': 'partner is suing her'}
+G14,Privacy,Ordinary business words,PASS,False,"Uses Clinivo and wants less admin: kept, nothing flagged","detail=""On Clinivo; You mentioned you're on Clinivo"""
+G20,Privacy,Remark no word list was written for: 'her partner left her last month',PASS,True,The remark is in no file; the demo ask still works,step=demo leaks=[]
+G21,Privacy,Remark no word list was written for: 'he's been off sick for months',PASS,True,The remark is in no file; the demo ask still works,step=demo leaks=[]
+G22,Privacy,Remark no word list was written for: 'her mom passed in the fall so it's been rough',PASS,True,The remark is in no file; the demo ask still works,step=demo leaks=[]
+G23,Privacy,Remark no word list was written for: 'said the clinic might fold because he owes the bank',PASS,True,The remark is in no file; the demo ask still works,step=demo leaks=[]
+G24,Privacy,Remark no word list was written for: 'she has MS and uses a cane',PASS,True,The remark is in no file; the demo ask still works,step=demo leaks=[]
+G25,Privacy,Remark no word list was written for: 'he's in AA',PASS,True,The remark is in no file; the demo ask still works,step=demo leaks=[]
+G26,Privacy,Remark no word list was written for: 'she's expecting in June',PASS,True,The remark is in no file; the demo ask still works,step=demo leaks=[]
+G27,Privacy,Remark no word list was written for: 'he was arrested last year',PASS,True,The remark is in no file; the demo ask still works,step=demo leaks=[]
+H1,Attack A-V,"French card, Owen says they spoke English",PASS,False,"English, from Owen","status='READY: read, fix a word, send' draft=yes step=demo from=Owen lang=English to='l@r.ca'"
+H2,Attack A-V,"English card, note 'Nadia a parlé avec lui en français, démo fin d'année'",PASS,False,"French, from Nadia, demo","status='READY: read, fix a word, send' draft=yes step=demo from=Nadia lang=French to='i@c.ca'"
+H3,Attack A-V,French name in an English note,PASS,False,English,"status='READY: read, fix a word, send' draft=yes step=demo from=Owen lang=English to='f@c.ca'"
+H4,Attack A-V,"French note with English business words, from Nadia",PASS,False,"French, from Nadia","status='READY: read, fix a word, send' draft=yes step=demo from=Nadia lang=French to='a@d.ca'"
+H5,Attack A-V,Both Owen and Nadia hold the promise,PASS,False,Waits for them to decide; one sender,status='WAITING on Owen and Nadia: decide first' draft=yes step=demo from=Owen lang=English to='s@i.ca'
+H6,Attack A-V,Notes say both French and English,PASS,False,Not guessed silently: flagged,"status='READY: read, fix a word, send' draft=yes step=demo from=Owen lang=English to='s@i.ca' ['Notes say this conversation was both in French and in English. Draft is in English. Check which.']"
+H7,Attack A-V,"French conversation noted, but Owen holds the notes",PASS,False,Waits for Owen and Nadia: French only goes out from Nadia,status='WAITING on Owen and Nadia: decide first' draft=yes step=demo from=Owen lang=French to='s@i.ca'
+I1,Input,"Headers: Telephone, Given Name, Surname, Practice Name, E-mail Address, Share With Exhibitors, Notes",PASS,True,"Read correctly, whatever the order or case","status='READY: read, fix a word, send' draft=yes step=demo from=Owen lang=English to='i@a.ca'"
+I2,Input,"Headers: first_name, last_name, phone, company, email, share, notes",PASS,True,"Read correctly, whatever the order or case","status='READY: read, fix a word, send' draft=yes step=demo from=Owen lang=English to='i@a.ca'"
+I3,Input,"Headers: FIRST NAME, LAST NAME, PHONE NUMBER, ORGANIZATION, EMAIL ADDRESS, CONSENT, COMMENTS",PASS,True,"Read correctly, whatever the order or case","status='READY: read, fix a word, send' draft=yes step=demo from=Owen lang=English to='i@a.ca'"
+I4,Input,One name column: Attendee Name,PASS,True,Name split safely and read correctly,"status='READY: read, fix a word, send' draft=yes step=demo from=Owen lang=English to='i@a.ca'"
+I5,Input,One name column: Contact Name,PASS,True,Name split safely and read correctly,"status='READY: read, fix a word, send' draft=yes step=demo from=Owen lang=English to='i@a.ca'"
+I6,Input,One name column: Full Name,PASS,True,Name split safely and read correctly,"status='READY: read, fix a word, send' draft=yes step=demo from=Owen lang=English to='i@a.ca'"
+I7,Input,Duplicate header and a blank column,PASS,False,First column used; reported to Erin,"status='READY: read, fix a word, send' draft=yes step=demo from=Owen lang=English to='i@a.ca' issues=[""Column 'First Name' appears twice: the first one is used""]"
+I8,Input,Only one name in the one name column,PASS,False,Kept as written and flagged to check,"[""Only one name on this record ('Ash'). Check it.""]"
+I9,Input,Scan file with columns it can't recognise,PASS,True,Not lost silently: named on Erin's list,"[""Columns not recognised, so this file was not read. Look at it: if it's the scan export, tell whoever looks after the tool.""]"
+J1,Attack A-V,"Jean-François Lévesque, email N/A, phone with extension",PASS,True,"No draft, call reminder, name and extension intact","status='CALL: no usable email address, so no draft' draft=no step=demo from=Owen lang=English to='' | Can't be reached by email. Call Jean-François Lévesque at 506-555-0100 ext 4 about the demo they asked for."
+J2,Attack A-V,No email and no phone,PASS,True,No draft; Erin asked to find a contact,status='NO DRAFT: no usable email address and no phone. Erin finds a' draft=no step=demo from=Owen lang=English to='' ['For Erin: No usable email address and no phone. Erin finds a way to reach them.']
+J3,Attack A-V,The call reminder reaches the sender's page,PASS,False,"On Owen's page, under Call, with the number",found: True
+J4,Attack A-V,Phone says N/A too,PASS,True,Treated as no phone,status='NO DRAFT: no usable email address and no phone. Erin finds a' draft=no step=demo from=Owen lang=English to=''
+K1,Attack A-V,Same person scanned twice,PASS,True,"One person, one draft",1 row
+K2,Attack A-V,"Scan and card, nickname and full name, same clinic",PASS,False,One person,1 row
+K3,Attack A-V,Same file dropped twice under two names,PASS,True,No double counting,1 row
+L1,Attack A-V,Two Lee Roys at two clinics,PASS,True,"Two people, each with their own ask","[('Harbour Clinic', 'demo'), ('Bay Clinic', 'pricing')]"
+L2,Attack A-V,"Voice note 'Lee Roy wants a demo', two Lee Roys, no clinic named",PASS,True,Given to neither; a person places it,"['thank-you note', 'thank-you note'] general=1"
+L3,Attack A-V,"Same, but the note names the clinic",PASS,False,Goes to the right Lee Roy,"{'Harbour Clinic': 'thank-you note', 'Bay Clinic': 'demo'}"
+L4,Attack A-V,Two people sharing info@ at one clinic,PASS,True,"Two people, not merged by the shared inbox","['Ann Hall', 'Bob Hall']"
+L5,Attack A-V,"Same surname, different clinics",PASS,False,Two people,"['Dominic Roy', 'Claude Roy']"
+M1,Attack A-V,Accents dropped,PASS,True,No draft,status='NO DRAFT: HIGH RISK: on the do-not-email list since 2026-01-' draft=no step=demo from=Owen lang=English to='new@w.ca'
+M2,Attack A-V,Hyphenated surname,PASS,True,No draft,status='NO DRAFT: HIGH RISK: on the do-not-email list since 2026-01-' draft=no step=demo from=Owen lang=English to='new@w.ca'
+M3,Attack A-V,Spelling change,PASS,True,No draft,status='NO DRAFT: HIGH RISK: on the do-not-email list since 2026-01-' draft=no step=demo from=Owen lang=English to='new@w.ca'
+M4,Attack A-V,Longer clinic name,PASS,True,No draft,status='NO DRAFT: HIGH RISK: on the do-not-email list since 2026-01-' draft=no step=demo from=Owen lang=English to='new@w.ca'
+M5,Attack A-V,Clinic abbreviated,PASS,True,No draft,"status='NO DRAFT: HIGH RISK, identity unsure: may be Ann Lee, who as' draft=no step=demo from=Owen lang=English to='new@w.ca'"
+M6,Attack A-V,Nickname,PASS,True,No draft,status='NO DRAFT: HIGH RISK: on the do-not-email list since 2026-01-' draft=no step=demo from=Owen lang=English to='new@w.ca'
+M7,Attack A-V,Title on the name,PASS,True,No draft,status='NO DRAFT: HIGH RISK: on the do-not-email list since 2026-01-' draft=no step=demo from=Owen lang=English to='new@w.ca'
+M8,Attack A-V,First and last swapped,PASS,True,No draft,"status='NO DRAFT: HIGH RISK, identity unsure: may be Ann Lee, who as' draft=no step=demo from=Owen lang=English to='new@w.ca'"
+M9,Attack A-V,"Surname spelled differently, same first name and clinic",PASS,True,No draft,"status='NO DRAFT: HIGH RISK, identity unsure: may be Ann Lee, who as' draft=no step=demo from=Owen lang=English to='new@w.ca'"
+M10,Attack A-V,Initial for a first name,PASS,True,No draft,status='NO DRAFT: HIGH RISK: on the do-not-email list since 2026-01-' draft=no step=demo from=Owen lang=English to='new@w.ca'
+M11,Attack A-V,"A colleague at the same clinic, different name",PASS,True,Not blocked: the clinic alone isn't a match,"status='READY: read, fix a word, send' draft=yes step=demo from=Owen lang=English to='bob@w.ca'"
+N1,Attack A-V,'wanted a demo but changed her mind',PASS,True,No demo draft,"status='READY: read, fix a word, send' draft=yes step=thank-you note from=Owen lang=English to='n@t.ca'"
+N2,Attack A-V,'not interested in a demo anymore',PASS,True,No demo draft,"status='READY: read, fix a word, send' draft=yes step=thank-you note from=Owen lang=English to='n@t.ca'"
+N3,Attack A-V,'cancel the trial',PASS,True,No trial draft,"status='READY: read, fix a word, send' draft=yes step=thank-you note from=Owen lang=English to='n@t.ca'"
+N4,Attack A-V,'doesn't want pricing',PASS,True,No pricing draft,"status='READY: read, fix a word, send' draft=yes step=thank-you note from=Owen lang=English to='n@t.ca'"
+N5,Attack A-V,"An earlier 'no demo', then a later clear ask",PASS,False,Demo: the newer clear ask wins,"status='READY: read, fix a word, send' draft=yes step=demo from=Owen lang=English to='n@t.ca'"
+N6,Attack A-V,'still no demo from Toronto' means an unkept promise,PASS,False,Stays a demo: not a withdrawal,"status='READY: read, fix a word, send' draft=yes step=demo from=Owen lang=English to='n@t.ca'"
+O1,Attack A-V,"'just a quote, no demo, no newsletter'",PASS,True,"Price only: no links, flagged for Erin","Oli, good to meet you in Testville. You asked about pricing. It's $34 per practitioner per month. That's all you asked for, and I won't add you to any list. Owen."
+O2,Consent,"Quote only, N flag",PASS,True,Held: no draft,status='HOLD — LEGAL REVIEW REQUIRED: Share flag N and no card: badg' draft=no step=pricing from=Owen lang=English to='o@f.ca'
+O3,Attack A-V,"No marketing, on a paid system at two clinics, asked for info",PASS,True,One-pager only: no demo link added,"Oli, good to meet you in Testville. You mentioned you're on Clinivo, so if that ever starts getting messy, give me a shout. Owen."
+P1,Attack A-V,French demo with no demo link set,PASS,False,"Yellow marker shown, never a blank; the page says links are missing","Ana, Voici le lien pour réserver une démo avec moi : [DEMO LINK]. Nadia."
+P2,Attack A-V,"Same, with the link set",PASS,False,Link in the French draft,"Ana, Voici le lien pour réserver une démo avec moi : https://x/demo. Nadia."
+P3,Attack A-V,"Security document asked for, none set",PASS,True,No draft that pretends: Owen calls,"status='CALL: security document not set, so no draft that pretends (' draft=no step=send info from=Owen lang=English to='n@d.ca'"
+P4,Attack A-V,"Security document asked for, link set",PASS,False,Draft with the link,"Nat, good to meet you in Testville. Here's the security one-pager for your IT team: https://x/sec. I'll give you a call once they've had a look. Owen."
+Q1,Day 30,"Same booking three times, two IDs",PASS,True,One row in the piles,1 row
+Q2,Day 30,"Same send twice, then a real send a week later",PASS,True,Two sends kept,"['2026-10-22 10:00 hello', '2026-10-29 10:00 hello']"
+Q3,Day 30,Two sources log one event,PASS,False,One,['2026-10-22 10:00 hello']
+Q4,Day 30,Same activity file dropped twice,PASS,True,Counts unchanged,1 row
+R1,Day 30,Booking dated 'banana',PASS,True,No crash; not counted; listed with its record ID for Erin,"pile=never written to; issues=[""Can't read the date 'banana' on 'demo booked': not counted""]"
+R2,Day 30,Booking dated '',PASS,True,No crash; not counted; listed with its record ID for Erin,"pile=never written to; issues=[""Can't read the date '' on 'demo booked': not counted""]"
+R3,Day 30,Booking dated '13/13/2026',PASS,True,No crash; not counted; listed with its record ID for Erin,"pile=never written to; issues=[""Can't read the date '13/13/2026' on 'demo booked': not counted""]"
+R4,Day 30,Booking dated '05/06/2026 10:00',PASS,True,No crash; not counted; listed with its record ID for Erin,"pile=never written to; issues=[""Can't read the date '05/06/2026 10:00' on 'demo booked': not counted""]"
+R5,Day 30,Booking dated '2026-13-45',PASS,True,No crash; not counted; listed with its record ID for Erin,"pile=never written to; issues=[""Can't read the date '2026-13-45' on 'demo booked': not counted""]"
+R6,Day 30,A send with a bad date,PASS,True,Not counted in the piles; no second email offered,pile=never written to; status='ALREADY WRITTEN TO (date unrea): do not send again' draft=yes step=demo from=Owen lang=English to='r@o.ca'
+R7,Day 30,One bad row among good ones,PASS,True,The good row still counts,never written to / booked a demo
+S1,Attack A-V,Email = 'N/A',PASS,True,"No draft, no READY; call reminder","status='CALL: no usable email address, so no draft' draft=no step=demo from=Owen lang=English to=''"
+S2,Attack A-V,Email = 'NA',PASS,True,"No draft, no READY; call reminder","status='CALL: no usable email address, so no draft' draft=no step=demo from=Owen lang=English to=''"
+S3,Attack A-V,Email = 'null',PASS,True,"No draft, no READY; call reminder","status='CALL: no usable email address, so no draft' draft=no step=demo from=Owen lang=English to=''"
+S4,Attack A-V,Email = 'None',PASS,True,"No draft, no READY; call reminder","status='CALL: no usable email address, so no draft' draft=no step=demo from=Owen lang=English to=''"
+S5,Attack A-V,Email = '',PASS,True,"No draft, no READY; call reminder","status='CALL: no usable email address, so no draft' draft=no step=demo from=Owen lang=English to=''"
+S6,Attack A-V,Email = '   ',PASS,True,"No draft, no READY; call reminder","status='CALL: no usable email address, so no draft' draft=no step=demo from=Owen lang=English to=''"
+S7,Attack A-V,Email = 'call him',PASS,True,"No draft, no READY; call reminder","status='CALL: no usable email address, so no draft' draft=no step=demo from=Owen lang=English to=''"
+S8,Attack A-V,Email = 'jean.example.com',PASS,True,"No draft, no READY; call reminder","status='CALL: no usable email address, so no draft' draft=no step=demo from=Owen lang=English to=''"
+S9,Attack A-V,Email = 'a@b',PASS,True,"No draft, no READY; call reminder","status='CALL: no usable email address, so no draft' draft=no step=demo from=Owen lang=English to=''"
+S10,Attack A-V,"Email = 'two@a.ca, three@a.ca'",PASS,True,"No draft, no READY; call reminder","status='CALL: no usable email address, so no draft' draft=no step=demo from=Owen lang=English to=''"
+S11,Attack A-V,Email = 'jean@example..com',PASS,True,"No draft, no READY; call reminder","status='CALL: no usable email address, so no draft' draft=no step=demo from=Owen lang=English to=''"
+S12,Attack A-V,Email = 'Jean <jean@example.com>',PASS,True,"No draft, no READY; call reminder","status='CALL: no usable email address, so no draft' draft=no step=demo from=Owen lang=English to=''"
+S13,Attack A-V,Email = 'jean@example.com',PASS,False,"Normal form jean@example.com, draft offered","status='READY: read, fix a word, send' draft=yes step=demo from=Owen lang=English to='jean@example.com'"
+S14,Attack A-V,Email = ' jean@example.com ',PASS,False,"Normal form jean@example.com, draft offered","status='READY: read, fix a word, send' draft=yes step=demo from=Owen lang=English to='jean@example.com'"
+S15,Attack A-V,Email = 'jean＠example.com',PASS,False,"Normal form jean@example.com, draft offered","status='READY: read, fix a word, send' draft=yes step=demo from=Owen lang=English to='jean@example.com'"
+S16,Attack A-V,Email = 'JEAN@EXAMPLE.COM',PASS,False,"Normal form jean@example.com, draft offered","status='READY: read, fix a word, send' draft=yes step=demo from=Owen lang=English to='jean@example.com'"
+S17,Attack A-V,Email = 'mailto:jean@example.com',PASS,False,"Normal form jean@example.com, draft offered","status='READY: read, fix a word, send' draft=yes step=demo from=Owen lang=English to='jean@example.com'"
+T1,Privacy,'his dad is dying and his marriage is falling apart',PASS,True,"Nothing private anywhere; only a plain thank-you, or none; nobody invents an ask","step=thank-you note body='Tom, good to meet you in Testville. Thanks for stopping by, and give me a shout if I can help. Owen.' leaks=[]"
+U1,Attack A-V,List has the badge address; card has another,PASS,True,No draft to the other address,status='NO DRAFT: HIGH RISK: on the do-not-email list since 2026-01-' draft=no step=demo from=Owen lang=English to='second@w.ca'
+U2,Attack A-V,Remove-me reply from the second address,PASS,True,No draft,status='NO DRAFT: HIGH RISK: asked to be removed on 2026-10-21. Matc' draft=no step=demo from=Owen lang=English to='second@w.ca'
+U3,Attack A-V,Case and spaces differ from the list,PASS,True,No draft,status='NO DRAFT: HIGH RISK: on the do-not-email list since 2026-01-' draft=no step=demo from=Owen lang=English to='with.case@w.ca'
+U4,Attack A-V,"Removal at one show, new address at the next",PASS,True,"Blocked at the next show, through memory.csv",status='NO DRAFT: HIGH RISK: on the do-not-email list since 2026-10-' draft=no step=demo from=Owen lang=English to='brand.new@w.ca'
+U5,Attack A-V,A confirmed match with a new address,PASS,True,The new address joins the list,new@w.ca on list: True
+V1,Input,'webinar attended',PASS,True,Not counted; listed for Erin,"pile=never written to issues=[""Unknown event type 'webinar attended': not counted""]"
+V2,Input,'Demo Booked ' with odd case and a space,PASS,False,Recognised,booked a demo
+V3,Input,Blank event type,PASS,False,Not counted; listed for Erin,"[""Unknown event type '(blank)': not counted""]"
+V4,Consent,'unsubscribed' event,PASS,True,Treated as a removal: no draft,status='NO DRAFT: HIGH RISK: asked to be removed on 2026-10-25. Matc' draft=no step=demo from=Owen lang=English to='v@o.ca'
+X1,Input,Empty CSV,PASS,True,Show runs; file reported,"status='READY: read, fix a word, send' draft=yes step=demo from=Owen lang=English to='z@o.ca' issues=[('empty.csv', 'whole file', 'Empty file')]"
+X2,Input,Corrupt JSON,PASS,True,Show runs; file reported,"status='READY: read, fix a word, send' draft=yes step=demo from=Owen lang=English to='z@o.ca' issues=[('broken.json', 'whole file', 'Could not read it: Expecting property name enclosed in doubl')]"
+X3,Input,JSON with null records,PASS,True,Show runs; records reported,"status='READY: read, fix a word, send' draft=yes step=demo from=Owen lang=English to='z@o.ca' issues=[('n.json', 'card item 1', 'Empty or broken record, skipped')]"
+X4,Input,Row shorter or longer than the header,PASS,True,Read as far as it goes; row reported,"status='READY: read, fix a word, send' draft=yes step=demo from=Owen lang=English to='z@o.ca' issues=[('x.csv', 'row 2', 'Row has 2 columns, header has 6. Read as far as it goes. Che'), ('x.csv', 'row 3', 'Row has 8 columns, header has 6. Read as far as it goes. Che')]"
+X5,Input,Windows encoding with accents,PASS,True,"Read, accents intact",['René Côté']
+X6,Input,A note a million characters long,PASS,True,Finishes quickly; cut and reported,6.6s; ['Note is 1000036 characters long. Only the first 20']
+X7,Input,No scan export at all,PASS,True,Runs on what's there; says the scan export is missing,['No scan export found in what was dropped']
+X8,Input,Scan row with no name at all,PASS,True,No draft; reported,"[""status='NO DRAFT: No name on this record. Erin checks it before anyt' draft=no step=demo from=Owen lang=English to=''""] issues=['Scan row with no name, address or clinic']"
+X9,Input,Nothing usable dropped,PASS,True,"Stops with a plain message, changes nothing",Stopped: no scan export or booth notes found in /tmp/sandbar_ngn3fekx. Put the s
+X10,Input,Problems file is written,PASS,False,"input_issues.csv has file, record, reason and review","[{'file': 'broken.json', 'record': 'whole file', 'reason': 'Could not read it: Expecting property name enclosed in double quotes: line 1 column 2 (char 1)', 'review': 'yes'}]"
+X11,Input,Mistyped date formats mixed across rows,PASS,False,Good ones read; the rest reported,booked a demo
+Y1,Attack A-V,Owen's conversation,PASS,True,"Draft on Owen's page, signed Owen; not on Nadia's",from=Owen signed= Owen. on Owen: True; on Nadia: False
+Y2,Attack A-V,"Nadia's conversation, with a card she collected",PASS,True,"Draft on Nadia's page, signed Nadia; not on Owen's",from=Nadia on Nadia: True; on Owen: False
+Y3,Attack A-V,"Scan says pricing, card says demo, both Owen's (Lena's case)",PASS,True,"Not treated as settled: waits on Owen, and not on Nadia's page",status='WAITING on Owen: decide first' draft=yes step=demo from=Owen lang=English to='lena@tide.ca'; on Nadia: False
+Y4,Attack A-V,Nothing goes from hello,PASS,True,"Every draft is from Owen or Nadia, with hello on cc","[('Owen', '[HELLO ADDRESS]'), ('Nadia', '[HELLO ADDRESS]')]"
+Y5,Attack A-V,Erin's page has no drafts to send,PASS,True,No Copy or Open in mail buttons on Erin's page,copy: False; mailto: False
+Y6,Attack A-V,Erin's page order,PASS,False,"This run, Check, Flags, Ready for follow-up, Excluded, Look up, in that order","{'to check': 41, 'This run': 238, 'Check (': 1059, 'Flags (': 1221, 'Ready for follow-up': 1541, 'Excluded, no email': 1897, 'Look up anyone': 1943}"
+Y7,Attack A-V,"A flag tells Erin who, why and what next",PASS,False,"Owner, reason and an Action line",Flags (1): Owen or Nadia  Pass each one on.     Lena Petrov   · Tidewater Physio  Owen · Needs confirmation  Sources disagree on what was asked: demo vs pricing  Action: Confirm or correct     
+Y8,Attack A-V,A line the tool can't place,PASS,False,"Shows the line's ID, Owen, Identity unclear, and an Action","Flags (1): Owen or Nadia  Pass each one on.     L0   · Red van chiro, numbers in writing  Owen · Identity unclear  List line the tool can&#x27;t place.  Action: Owen says who this is     "
+BL6,Baseline,"Moncton workbook, its own 15 cases",PASS,False,14 of 15 (the one left is Nadia's rule: a document request stays warm),14 of 15
+BL7,Baseline,Every Toronto draft against Owen's and Nadia's rules,PASS,False,All pass,RESULT: all passed
+W1,Web,Upload three Toronto files and press Run,PASS,True,"Page opens with Nadia, Owen and Erin",toronto-check/out/index.html; buttons True
+W2,Web,"Same show again, Replace (the default)",PASS,True,Old file gone; old person not in the new run,Old in page: False; New in page: True
+W3,Web,"Same show, Add to",PASS,False,Both people in the run,Old: True; New: True
+W4,Web,Each run records its time and input files,PASS,False,"runs.jsonl has mode, time and files","{'ran_at': '2026-11-06T15:28:33', 'mode': 'replace', 'run_as_of': '2026-10-22', 'files_added': [{'file': 'b.csv', 'bytes': 83, 'sha256': '0ea23d2b50ff"
+W5,Web,Press a decision button,PASS,False,"Saved, show runs again, person leaves the to-do list",200; saved True; still asking: False
+W6,Web,"Nothing typed releases an N flag, through the server",PASS,True,Still held,HOLD — LEGAL REVIEW REQUIRED: Share flag body=''
+W7,Web,Reading files outside the shows folder,PASS,True,Refused,memory.csv -> 404
+W8,Web,A made-up decision value,PASS,False,Refused,400
+W9,Web,Only broken files dropped,PASS,True,"Plain message, the station keeps running",message shown: True; still up: 200
+W10,Web,A page with one bad date among good rows,PASS,True,Runs; problem shown on Erin's page,Under Check with the bad value: True
+W11,Web,Page in a real browser: three buttons switch views,PASS,False,Each view appears when pressed; no script errors,"['Toronto check: 80 real convers', '29 to send', '8 to check']; errors []"
+NT1,Web,Double-clicking start.command on a Mac,NOT TESTED,False,A person tries it,Run on Neo's Mac before the demo; the tests run on Linux
+NT2,Web,start.bat on Windows,NOT TESTED,False,A person tries it,No Windows machine available
+NT3,Web,"The page on a real phone (Copy, Open in my mail)",NOT TESTED,False,A person tries it,Checked at phone width in a desktop browser only
+NT4,Input,The Sheet opened in Google Sheets,NOT TESTED,False,A person tries it,Only written and read back as a file here
+NT5,Web,Dragging files onto the box,NOT TESTED,False,A person tries it,"Tests upload through the form, not a real drag"
+NT6,Attack A-V,Whether Owen would send these drafts,NOT TESTED,False,A person tries it,Owen hasn't read them
+R-1,Consent,Holding Amira and other N-flag people who asked at the booth,NEEDS REVIEW,False,A person decides,"Follows Erin's and Nadia's 'hold N' rule, but Erin also said Amira gets a plain reply. Nadia or someone who knows the law should confirm"
+R-2,Day 30,Counting bookings made during the show,NEEDS REVIEW,False,A person decides,"Counted, as it fits 'booked by day 30 counts'. The written request says only after the show. Nadia should confirm"
+R-3,Attack A-V,"Same name, different clinic waits for Erin",NEEDS REVIEW,False,A person decides,"Safe, but it holds some real people until she checks"

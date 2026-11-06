@@ -1,0 +1,54 @@
+event_id,date_time,event,channel,name,email,clinic,detail
+A001,2027-02-02 14:18,demo booked,demo booking page,Harold Giffin,harold@longreachphysio.example.ca,Long Reach Physio,Demo booked for 2027-02-24 13:00 (30 min). How did you hear about us: Google search
+A002,2027-02-12 10:37,demo booked,demo booking page,Rhonda Keefe,rhonda@keefephysio.example.ca,Keefe Physio,Demo booked for 2027-03-03 14:00 (30 min). How did you hear about us: Google
+A003,2027-02-15 21:08,email sent,Owen's mailbox,Mary-Beth Trenholm,mb.trenholm@tantramarphysio.example.ca,Tantramar Physiotherapy Group,Tantramar - seeing it with your leads
+A004,2027-02-15 21:26,email sent,Owen's mailbox,Alain Bourque,alain@riverviewspine.example.ca,Riverview Sports & Spine,What it costs per clinician
+A005,2027-02-16 20:51,email sent,Owen's mailbox,Yvonne Clarke,yvonne@clarkephysio.example.ca,Clarke Physiotherapy,Sorry this took me so long - your demo
+A006,2027-02-17 07:44,reply received,Owen's mailbox,Yvonne Clarke,yvonne@clarkephysio.example.ca,Clarke Physiotherapy,Better late! Booking now.
+A007,2027-02-17 20:33,email sent,Owen's mailbox,Michael Hutchings,mhutchings@oromoctorehab.example.ca,Oromocto Rehab Centre,Oromocto - getting Nadia in front of you
+A008,2027-02-17 20:49,email sent,Owen's mailbox,Tanya Boudreau,tanya@cappelephysio.example.ca,Cap-Pele Physio,Numbers for Cap-Pele
+A009,2027-02-18 09:02,demo booked,demo booking page,Yvonne Clarke,yvonne@clarkephysio.example.ca,Clarke Physio,Demo booked for 2027-03-09 13:30 (30 min). How did you hear about us: Owen's email
+A010,2027-02-18 09:40,email sent,hello@ inbox,M.E. Trenholm,drtrenholm@tantramar-physio.example.ca,Tantramar Physio Group,Good to see you at the Winter Allied Health Forum!
+A011,2027-02-18 09:44,email sent,hello@ inbox,Renée Cormier-Hall,renee.ch@petitcodiacphysio.example.ca,Physio Petitcodiac,Good to see you at the Winter Allied Health Forum!
+A012,2027-02-18 09:49,email sent,hello@ inbox,Bev Tan,bev@sussexcornerphysio.example.ca,Sussex Corner Physiotherapy,Good to see you at the Winter Allied Health Forum!
+A013,2027-02-18 09:53,email sent,hello@ inbox,Caleb Ross,caleb@fundyshorephsyio.example.ca,Fundy Shore Physio,Good to see you at the Winter Allied Health Forum!
+A014,2027-02-18 09:58,email sent,hello@ inbox,Nora Wall,nwall@placentiabayphysio.example.ca,Placentia Bay Physio,Good to see you at the Winter Allied Health Forum!
+A015,2027-02-18 10:03,email sent,hello@ inbox,Nia Frost,niafrost@frostmassage.example.ca,Frost Massage,Good to see you at the Winter Allied Health Forum!
+A016,2027-02-18 10:07,email sent,hello@ inbox,Gerald Steeves,gerald@hillsboroughrehab.example.ca,Hillsborough Rehab Group,Good to see you at the Winter Allied Health Forum!
+A017,2027-02-18 10:11,email sent,hello@ inbox,Fiona Burke,fiona@burkephysio.example.ca,Burke Physiotherapy,Good to see you at the Winter Allied Health Forum!
+A018,2027-02-18 10:15,email sent,hello@ inbox,Dale Whynot,dale@flexcoretables.example.com,FlexCore Tables,Good to see you at the Winter Allied Health Forum!
+A019,2027-02-18 10:22,reply received,hello@ inbox,Bev Tan,bev@sussexcornerphysio.example.ca,Sussex Corner Physiotherapy,Automatic reply: Away until 2027-03-01. For bookings please call the clinic.
+A020,2027-02-18 11:12,email bounced,hello@ inbox,Mail Delivery Subsystem,caleb@fundyshorephsyio.example.ca,,Delivery failed: address not found (caleb@fundyshorephsyio.example.ca)
+A021,2027-02-18 11:14,email bounced,hello@ inbox,Mail Delivery Subsystem,nwall@placentiabayphysio.example.ca,,Delivery failed: mailbox unavailable (nwall@placentiabayphysio.example.ca)
+A022,2027-02-18 16:30,reply received,hello@ inbox,Fiona Burke,fiona@burkephysio.example.ca,Burke Physiotherapy,"Thanks, but like I told Owen we're with Clinivo until 2029. All set."
+A023,2027-02-19 08:12,reply received,Owen's mailbox,Mary-Beth Trenholm,mb.trenholm@tantramarphysio.example.ca,Tantramar Physiotherapy Group,"Got yours and one from hello as well, I'm popular! Yes, booking a time for me and the leads."
+A024,2027-02-19 11:05,demo booked,demo booking page,Mary Beth Trenholm,mb.trenholm@tantramarphysio.example.ca,Tantramar Physio,Demo booked for 2027-03-16 13:00 (45 min). Notes: me + 2 clinic leads. How did you hear about us: Owen
+A025,2027-02-19 15:48,demo booked,demo booking page,Paul Cormier,paul@cormiermassage.example.ca,Cormier Massage,Demo booked for 2027-03-10 15:00 (30 min). How did you hear about us: Google
+A026,2027-02-19 18:27,reply received,hello@ inbox,Gerald Steeves,gerald@hillsboroughrehab.example.ca,Hillsborough Rehab Group,I only put my name in for the prize. Remove me please.
+A027,2027-02-20 13:40,demo booked,demo booking page,Mike H,bigmike.hutch@example.com,Oromocto Rehab,Demo booked for 2027-03-10 13:30 (30 min). How did you hear about us: your email
+A028,2027-02-21 19:15,email sent,Owen's mailbox,Sandra Kerr,skerr@fraserlakephysio.example.ca,Fraser Lake Physiotherapy,A look at Sandbar with Dr. Fraser in the room
+A029,2027-02-21 19:32,email sent,Owen's mailbox,Annick Poirier,annick@massopoirier.example.ca,Massothérapie Poirier,Getting your RMTs set up
+A030,2027-02-22 20:02,email sent,Owen's mailbox,Patrice Maillet,pmaillet@mailletphysio.example.ca,Maillet Physio & Réadaptation,"Quote per clinician, three sites"
+A031,2027-02-22 20:19,email sent,Owen's mailbox,Steve Lau,steve.lau@grandviewhealth.example.ca,Grandview Health Collective,Good seeing you again in Moncton
+A032,2027-02-23 09:35,email sent,hello@ inbox,Greg Noble,greg@noblemassage.example.ca,Noble Massage,Good to see you at the Winter Allied Health Forum!
+A033,2027-02-23 09:39,email sent,hello@ inbox,Colleen Ward,cward@kvmassage.example.ca,KV Massage,Good to see you at the Winter Allied Health Forum!
+A034,2027-02-23 09:44,email sent,hello@ inbox,Clarissa Yeo,clarissa@summerfieldphysio.example.ca,Summerfield Physio,Good to see you at the Winter Allied Health Forum!
+A035,2027-02-23 09:50,email sent,hello@ inbox,Patrice Maillet,patrice@mailletphysio.example.ca,Maillet Physio Rehab,Good to see you at the Winter Allied Health Forum!
+A036,2027-02-23 09:55,email sent,hello@ inbox,Hannah Wu,hannah.wu@tidewatercollege.example.ca,Tidewater College,Good to see you at the Winter Allied Health Forum!
+A037,2027-02-23 10:48,email bounced,hello@ inbox,Mail Delivery Subsystem,hannah.wu@tidewatercollege.example.ca,,Delivery failed: mailbox unavailable (hannah.wu@tidewatercollege.example.ca)
+A038,2027-02-23 12:15,reply received,Owen's mailbox,Annick Poirier,annick@massopoirier.example.ca,Massothérapie Poirier,"Thanks Owen, we'll give it a go this week."
+A039,2027-02-24 08:10,demo booked,demo booking page,Front Desk,frontdesk@riverviewspine.example.ca,Riverview Sports and Spine,Demo booked for 2027-03-17 13:00 (45 min). Notes: for Tess Wu + 4 physios. How did you hear about us: Owen at the Moncton show
+A040,2027-02-24 10:21,trial started,trial sign-up form,Annick Poirier,annick@massopoirier.example.ca,Massotherapie Poirier,Trial started (14 days). How did you hear about us: Owen
+A041,2027-02-25 09:30,reply received,hello@ inbox,Greg Noble,greg@noblemassage.example.ca,Noble Massage,"Please take me off this list, thanks."
+A042,2027-02-25 11:44,demo booked,demo booking page,Ann Lowe,ann@fundyshoremassage.example.ca,Fundy Shore Massage,Demo booked for 2027-03-18 14:00 (30 min). How did you hear about us: Instagram
+A043,2027-02-25 20:41,email sent,Owen's mailbox,Ewan Caldwell,ewan.caldwell@sjrphysio.example.ca,SJR Physio Group,The privacy sheet for your board
+A044,2027-02-26 09:12,demo booked,demo booking page,Dr. Neil Fraser,nfraser@fraserlakephysio.example.ca,Fraser Lake Physio,Demo booked for 2027-03-18 13:00 (30 min). Notes: Sandra from our office will join. How did you hear about us: the forum
+A045,2027-02-28 16:05,trial started,trial sign-up form,Sasha Ivers,sasha@iversmassage.example.ca,Ivers Massage,Trial started (14 days). How did you hear about us: a friend
+A046,2027-03-01 12:33,trial started,trial sign-up form,J. Reid,jreid.pt@example.com,Salisbury Physio,Trial started (14 days). How did you hear about us: Owen in Moncton
+A047,2027-03-02 10:17,demo booked,demo booking page,Victor Sloan,victor@sloanphysio.example.ca,Sloan Physio,Demo booked for 2027-03-24 14:00 (30 min). How did you hear about us: met Owen at the Moncton show
+A048,2027-03-03 19:02,trial started,trial sign-up form,Theo Marsh,theo@marshrehab.example.ca,Marsh Rehab,Trial started (14 days). How did you hear about us: podcast
+A049,2027-03-03 20:44,trial started,trial sign-up form,Tammy Jollimore,tammy@tidemillphysio.example.ca,Tide Mill Physio,Trial started (14 days). How did you hear about us: saw your table in Moncton
+A050,2027-03-04 09:51,trial started,trial sign-up form,Dana Pike,dana@harbourlightphysio.example.ca,Harbourlight Physio,Trial started (14 days). How did you hear about us: review site
+A051,2027-03-05 11:20,demo booked,demo booking page,Lena Cho,lena@chophysio.example.ca,Cho Physio,Demo booked for 2027-03-25 13:00 (30 min). How did you hear about us: referral from Tantramar Physio
+A052,2027-03-08 14:26,demo booked,demo booking page,K. Doiron,office@dieppemassage.example.ca,Dieppe Massage Collective,Demo booked for 2027-03-30 15:00 (30 min). How did you hear about us: saw your table in Moncton
+A053,2027-03-09 09:37,demo booked,demo booking page,Cole Whitman,cole@coastalmassage.example.ca,Coastal Massage,Demo booked for 2027-03-30 13:30 (30 min). How did you hear about us: conference

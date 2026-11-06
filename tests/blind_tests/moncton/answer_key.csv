@@ -1,0 +1,38 @@
+person_id,name,clinic,source_rows,priority,promised_next_step,email_ok,day30_result,why
+P01,Mary-Beth Trenholm,Tantramar Physiotherapy Group,S006; S052; C01; V01; L01,hot,demo,yes,demo,"One person under badge, second scan, card (Dr. M.E. Trenholm, other email), voice (trenam) and list (MB). Demo with her leads; booked herself. One draft only, to card email."
+P02,Alain Bourque,Riverview Sports & Spine,S010; V02; L02,hot,pricing,yes,no reply,"Same clinic as Tess, own ask and own draft. Owen sent; the clinic booking is noted for Tess, not him."
+P03,Tess Wu,Riverview Sports & Spine,S011; V02,hot,demo,yes,demo,Front desk booked with a note naming her. Not on list. Owen never wrote to her.
+P04,Renée Cormier,Petitcodiac Physio,S013; C13,warm,thank-you note,yes,no reply,"One clinic, on Bookstead (book stead / BS user), nothing asked. Unrelated to Paul Cormier, whose Google booking is not hers. Card name and email differ."
+P05,Stanislas (Stan) Goguen,Goguen Physio & Rehab,S015; S051; L09,warm,thank-you note,yes,never followed up,"Scanned twice. List says 'Sam? Stan?'; Sam here is not Sandbar's CTO. 2 clinics, Clinivo, nothing asked."
+P06,Lise Hachey,Baie Massage,S017,cold,thank-you note,"no: share flag N, no card; held pending legal advice",never followed up,"Real by note and star, one room, sheets. N flag, no card: no draft."
+P07,Joanna Pike,Conception Massage & Rehab,S018; C02,hot,demo,"no: share flag N with card; no draft, held and flagged",never followed up,"Asked for a demo but N flag. Card does not override it; must show as flagged with a note that she has a card, not vanish."
+P08,Bronwyn Sears,Sears Massage Therapy,S020; V03,hot,pricing,yes,never followed up,"Share flag Y. Said no mailing lists: personal reply with pricing only, nothing else, never newsletter. Voice misspells Sayers."
+P09,Tanya Boudreau,Cap-Pele Physio,S022; L05,hot,pricing,yes,no reply,Question mark on trial: pricing is the ask; one draft with pricing and one line on where to start a trial if she wants.
+P10,Kieran Doyle,Doyle & Marsh Rehab,S024; V04,hot,demo,yes,never followed up,"Scan says 'trial?', voice corrects to Nadia walking him through it. Go with voice, record source."
+P11,Dominic Savoie,Savoie Physio,S027; V05; L06,hot,call back,yes,never followed up,"Scan says pricing; voice and list say ring in April after lease, no links. Reminder for Owen, no demo link. Flag the disagreement. His back surgery never goes in anything."
+P12,Colleen Ward,Kennebecasis Valley Massage,S029; C16; V06,hot,call back,yes,no reply,"Call after second location in May; no links. Hello template went to her regardless, no reply. Husband's surgery must never reach a draft."
+P13,Mireille Haché,Physio Péninsule,C18; V09,hot,call back,yes,never followed up,"Nadia's French conversation; no scan; card typed late (Mar 2). Promise does not expire. From Nadia, in French, apologising, a call after March break, no 'great to meet you'."
+P14,Annick Poirier,Massothérapie Poirier,S054; C04; V12,hot,trial,yes,trial,"French card and badge but spoke English with Owen: draft from Owen, in English, to card email. Started the trial."
+P15,Michael (Big Mike) Hutchings,Oromocto Rehab Centre,S034; V08; L03,hot,demo,yes,demo,Nickname on list and voice. Booked from a personal address under 'Mike H'. Link to Sam stays out of the draft.
+P16,Wendy Fillmore,Whitetail Massage,S032; V07; L04,warm,thank-you note,yes,never followed up,"Description-only list line. Star B, 2 spots, Pracshift, nothing asked. Curling stays out of the draft; mention the logouts."
+P17,Yvonne Clarke,Clarke Physiotherapy,S053; C15; V11; L07,hot,demo,yes,demo,"Back from Toronto, demo promised there never delivered. Warmer: own the delay, no 'good to meet you'. Her mother's death stays out."
+P18,Steve Lau,Grandview Health Collective,S048; V10,warm,thank-you note,yes,no reply,"Back from Toronto, booked a demo there. Asked nothing new, 5 sites, Pracshift. No demo link, no 'good to meet you'. The Toronto booking does not count here."
+P19,Monique Robichaud,Willow Sports Physio,S050; C03,cold,thank-you note,no: asked to be removed at Toronto 2026-10-01,never followed up,New email on both badge and card; match on name and clinic. Stays off for every show.
+P20,Ewan Caldwell,Saint John River Physio Group,S038; C12; L10,warm,send info,yes,no reply,"One specific document (privacy sheet for board): owed and goes out with the promises, but stays warm by size. Draft must not pretend the sheet exists if it does not; Owen calls."
+P21,Nia Frost,Frost Massage,S040; C11,cold,send info,yes,no reply,"One specific document (privacy page for her audit): owed, still cold by size. Got only the generic template."
+P22,Harold Giffin,Long Reach Physio,S036,cold,thank-you note,yes,never followed up,"His demo was booked Feb 2 from Google, before the show, so it is not a show result. No demo link."
+P23,Caleb Ross,Fundy Shore Physio,S059; C06,cold,thank-you note,yes,never followed up,Card domain has swapped letters; template bounced so nothing arrived. Try badge email and tell Owen. Fundy Shore Massage booking is another clinic.
+P24,Nora Wall,Placentia Bay Physio,C07,warm,thank-you note,no: only address bounced 2027-02-18; phone instead,never followed up,"Card only (scanner down). On Clinivo. Mailbox unavailable, no badge to fall back on: tell Owen."
+P25,Jonah Reid,Salisbury Physio,C08,hot,trial,yes,trial,"Card only (scanner down), nobody wrote; started the trial himself from a personal address."
+P26,Rob McKay,Pictou Harbour Physio,S042,warm,thank-you note,yes,never followed up,"Star B with no note: a star means real, B means 2 clinics."
+P27,Clarissa Yeo,Summerfield Physio,S043,warm,thank-you note,yes,no reply,"Only a note on Nadia's phone: flag to Nadia to claim or pass to Owen, don't guess sender. On Clinivo."
+P28,Fiona Burke,Burke Physiotherapy,S045,warm,thank-you note,yes,no reply,"On Clinivo until 2029, said no thanks; not a removal, so a thank-you is allowed. Reply without demo or trial counts as no reply."
+P29,Ivan Hartt,Hartt Massage,S046; S070,cold,thank-you note,yes,never followed up,"Scanned twice. Maybe next year: two lines, no demo link."
+P30,Beverly (Bev) Tan,Sussex Corner Physio,S056; C14,cold,send info,yes,no reply,Generic flyer ask is not a promise. Only an out-of-office came back.
+P31,Greg Noble,Noble Massage,S057,cold,thank-you note,no: asked to be removed 2027-02-25,no reply,Template went first; replied asking to be taken off. Stays off for all shows.
+P32,Patrice Maillet,Maillet Physio Rehab,S060; C05; C20,hot,pricing,yes,no reply,"Two identical cards, one from Nadia saying already with Owen: Owen's, one draft to card email."
+P33,Sandra Kerr,Fraser Lake Physio,S061; C09,hot,demo,yes,demo,Owner Dr. Neil Fraser booked under his own name and email; Sandra is joining. Show Erin why it matched.
+P34,Katherine (Katie) Doiron,Dieppe Massage Collective,S063; C10,warm,thank-you note,yes,demo,"3 sites, Pracshift, nothing asked. Nobody wrote; booked from office@ address on day 26 for a slot after day 30: still counts."
+P35,Jill Perry,Harvest Moon Physio,S064,cold,thank-you note,no: existing customer; Owen calls,never followed up,Already a paying customer; no sales email.
+P36,Sanjay Mehta,Mehta Rehab,S066; C19; V13,hot,demo,yes,never followed up,"Owen started and handed to Nadia; her card holds the promise. Draft from Nadia, not Owen."
+P37,(unplaced) Shediac chiro with the red van,(unknown),L08,hot,pricing,no: no name or address; line matches nobody,never followed up,"Flag it, do not skip, and do not auto-match to Ian Pellerin of Shediac (blank drive-by)."

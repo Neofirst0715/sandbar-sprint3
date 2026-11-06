@@ -1,0 +1,357 @@
+{
+  "about": "Everything from the Winter Allied Health Forum booth (Moncton, 2027-02-09 and 2027-02-10) other than the badge scans. Cards were typed up by Erin from the originals; voice notes are the phone's automatic transcripts of Owen's recordings; Owen's list is copied as he typed it.",
+  "cards": [
+    {
+      "card_id": "C01",
+      "typed_on": "2027-02-11",
+      "collected_by": "Owen",
+      "name": "Dr. M.E. Trenholm, PT",
+      "title": "Clinic Director",
+      "clinic": "Tantramar Physio Group",
+      "email": "drtrenholm@tantramar-physio.example.ca",
+      "phone": "(506) 555-0165",
+      "back_of_card": "walk me thru it w my 2 leads"
+    },
+    {
+      "card_id": "C02",
+      "typed_on": "2027-02-11",
+      "collected_by": "Owen",
+      "name": "Joanna Pike, RMT",
+      "title": "Owner",
+      "clinic": "Conception Massage & Rehab",
+      "email": "joanna@conceptionrehab.example.ca",
+      "phone": "709 555 0118",
+      "back_of_card": "book a look for her + 2 PTs"
+    },
+    {
+      "card_id": "C03",
+      "typed_on": "2027-02-11",
+      "collected_by": "Owen",
+      "name": "Monique Robichaud",
+      "title": "Clinic Manager",
+      "clinic": "Willow Sports Physio",
+      "email": "m.robichaud@willowsportsphysio.example.ca",
+      "phone": "902-555-0107",
+      "back_of_card": "hi again"
+    },
+    {
+      "card_id": "C04",
+      "typed_on": "2027-02-11",
+      "collected_by": "Owen",
+      "name": "Annick Poirier, m.t.a.",
+      "title": "Propriétaire",
+      "clinic": "Massothérapie Poirier",
+      "email": "annick@massopoirier.example.ca",
+      "phone": "506.555.0149",
+      "back_of_card": "kick the tires, 2 RMTs"
+    },
+    {
+      "card_id": "C05",
+      "typed_on": "2027-02-11",
+      "collected_by": "Owen",
+      "name": "Patrice Maillet",
+      "title": "Owner",
+      "clinic": "Maillet Physio & Réadaptation",
+      "email": "pmaillet@mailletphysio.example.ca",
+      "phone": "506-555-0155",
+      "back_of_card": "quote per clinician, 3 locs"
+    },
+    {
+      "card_id": "C06",
+      "typed_on": "2027-02-11",
+      "collected_by": "Owen",
+      "name": "Caleb Ross, PT",
+      "title": "Owner",
+      "clinic": "Fundy Shore Physio",
+      "email": "caleb@fundyshorephsyio.example.ca",
+      "phone": "506 555 0154",
+      "back_of_card": "gcal"
+    },
+    {
+      "card_id": "C07",
+      "typed_on": "2027-02-11",
+      "collected_by": "Owen",
+      "name": "Nora Wall",
+      "title": "Clinic Manager",
+      "clinic": "Placentia Bay Physio",
+      "email": "nwall@placentiabayphysio.example.ca",
+      "phone": "709.555.0166",
+      "back_of_card": "on clean evo, good chat"
+    },
+    {
+      "card_id": "C08",
+      "typed_on": "2027-02-11",
+      "collected_by": "Owen",
+      "name": "Jonah Reid, PT",
+      "title": "Owner",
+      "clinic": "Salisbury Physio",
+      "email": "jonah@salisburyphysio.example.ca",
+      "phone": "506 555 0167",
+      "back_of_card": "test drive 2 wks"
+    },
+    {
+      "card_id": "C09",
+      "typed_on": "2027-02-11",
+      "collected_by": "Owen",
+      "name": "Sandra Kerr",
+      "title": "Office Manager",
+      "clinic": "Fraser Lake Physiotherapy",
+      "email": "skerr@fraserlakephysio.example.ca",
+      "phone": "(902) 555-0156",
+      "back_of_card": "see it w Dr Fraser"
+    },
+    {
+      "card_id": "C10",
+      "typed_on": "2027-02-11",
+      "collected_by": "Owen",
+      "name": "Katie Doiron",
+      "title": "Manager",
+      "clinic": "Dieppe Massage",
+      "email": "katie@dieppemassage.example.ca",
+      "phone": "506 555 0158",
+      "back_of_card": "3 sites, nice talk"
+    },
+    {
+      "card_id": "C11",
+      "typed_on": "2027-02-11",
+      "collected_by": "Owen",
+      "name": "Nia Frost, RMT",
+      "title": "Owner",
+      "clinic": "Frost Massage",
+      "email": "niafrost@frostmassage.example.ca",
+      "phone": "(902) 555-0140",
+      "back_of_card": "privacy page for her college audit"
+    },
+    {
+      "card_id": "C12",
+      "typed_on": "2027-02-11",
+      "collected_by": "Owen",
+      "name": "Ewan Caldwell",
+      "title": "Dir. Operations",
+      "clinic": "SJR Physio Group",
+      "email": "ewan.caldwell@sjrphysio.example.ca",
+      "phone": "506 555 0138",
+      "back_of_card": "privacy sheet - board meets in march"
+    },
+    {
+      "card_id": "C13",
+      "typed_on": "2027-02-16",
+      "collected_by": "Owen",
+      "name": "Renée Cormier-Hall, pht",
+      "title": "Propriétaire",
+      "clinic": "Physio Petitcodiac",
+      "email": "renee.ch@petitcodiacphysio.example.ca",
+      "phone": "506.555.0113",
+      "back_of_card": "BS user"
+    },
+    {
+      "card_id": "C14",
+      "typed_on": "2027-02-16",
+      "collected_by": "Owen",
+      "name": "Bev Tan, PT",
+      "title": "Physiotherapist",
+      "clinic": "Sussex Corner Physiotherapy",
+      "email": "bev@sussexcornerphysio.example.ca",
+      "phone": "506-555-0151",
+      "back_of_card": "something to read later"
+    },
+    {
+      "card_id": "C15",
+      "typed_on": "2027-02-16",
+      "collected_by": "Owen",
+      "name": "Yvonne Clarke, PT",
+      "title": "Owner",
+      "clinic": "Clarke Physiotherapy",
+      "email": "yvonne@clarkephysio.example.ca",
+      "phone": "506 555 0134",
+      "back_of_card": "still wants that demo!!"
+    },
+    {
+      "card_id": "C16",
+      "typed_on": "2027-02-16",
+      "collected_by": "Owen",
+      "name": "Colleen Ward, RMT",
+      "title": "Owner",
+      "clinic": "KV Massage",
+      "email": "cward@kvmassage.example.ca",
+      "phone": "506.555.0129",
+      "back_of_card": "phone only, after may"
+    },
+    {
+      "card_id": "C17",
+      "typed_on": "2027-02-16",
+      "collected_by": "Owen",
+      "name": "Reed Cochrane",
+      "title": "Territory Manager",
+      "clinic": "Maritime Orthotics Supply",
+      "email": "reed.cochrane@maritimeorthotics.example.com",
+      "phone": "(902) 555-0112",
+      "back_of_card": "booth 22 - insoles"
+    },
+    {
+      "card_id": "C18",
+      "typed_on": "2027-03-02",
+      "collected_by": "Nadia",
+      "name": "Mireille Haché, pht",
+      "title": "Physiothérapeute / Propriétaire",
+      "clinic": "Physio Péninsule",
+      "email": "mireille@physiopeninsule.example.ca",
+      "phone": "506-555-0168",
+      "back_of_card": "Pracshift - contrat finit en juin - la rappeler après la relâche"
+    },
+    {
+      "card_id": "C19",
+      "typed_on": "2027-03-02",
+      "collected_by": "Nadia",
+      "name": "Sanjay Mehta, PT",
+      "title": "Owner",
+      "clinic": "Mehta Rehab",
+      "email": "smehta@mehtarehab.example.ca",
+      "phone": "902.555.0161",
+      "back_of_card": "wants reporting live - demo w me. bookstead. 2 locs"
+    },
+    {
+      "card_id": "C20",
+      "typed_on": "2027-03-02",
+      "collected_by": "Nadia",
+      "name": "Patrice Maillet",
+      "title": "Owner",
+      "clinic": "Maillet Physio & Réadaptation",
+      "email": "pmaillet@mailletphysio.example.ca",
+      "phone": "506-555-0155",
+      "back_of_card": "already w Owen"
+    }
+  ],
+  "voice_notes": [
+    {
+      "note_id": "V01",
+      "recorded_at": "2027-02-09 09:36",
+      "length_seconds": 26,
+      "transcript": "okay first good one. mary beth trenam from tanta mar, four clinics amherst and sackville, on book stead and she says the reports are garbage. wants to see the whole thing on a screen with her two leads there. she'd like that soon. sharp."
+    },
+    {
+      "note_id": "V02",
+      "recorded_at": "2027-02-09 10:12",
+      "length_seconds": 24,
+      "transcript": "riverview sports and spine, two people. alain bork the owner just wants what it costs per clinician, he's got eleven of them over the two spots. and tess, the manager, tess woo, she wants nadia to show it to her and the physios. different asks, both real."
+    },
+    {
+      "note_id": "V03",
+      "recorded_at": "2027-02-09 11:43",
+      "length_seconds": 18,
+      "transcript": "bronwyn sayers, truro, massage. three of them on a google calendar. just wants to know what it costs. she was dead serious, no mailing list no newsletter none of that, she'll unsubscribe and tell people. just the number."
+    },
+    {
+      "note_id": "V04",
+      "recorded_at": "2027-02-09 12:24",
+      "length_seconds": 20,
+      "transcript": "kieran doyle, charlottetown, doyle and marsh, two clinics. I typed trial with a question mark but no, that's wrong, he doesn't want to fiddle with it himself, he wants nadia to sit down and walk him through it. so that."
+    },
+    {
+      "note_id": "V05",
+      "recorded_at": "2027-02-09 13:15",
+      "length_seconds": 22,
+      "transcript": "dominic savoy, memramcook. ignore what I typed, he knows what we cost, he's looked already. he's signing a lease on a bigger space, says ring him in april once that's done and not before. no emails with links, he was clear. back surgery last fall so he's only part time for now, poor guy."
+    },
+    {
+      "note_id": "V06",
+      "recorded_at": "2027-02-09 13:34",
+      "length_seconds": 20,
+      "transcript": "colleen ward, the valley, massage. one spot now and a second one in rothesay in may if the papers go through. said phone her after that, don't send her links or anything now. her husband's having heart surgery next month so she's underwater."
+    },
+    {
+      "note_id": "V07",
+      "recorded_at": "2027-02-09 14:08",
+      "length_seconds": 19,
+      "transcript": "wendy from kent county, white tail massage, two spots, she's on pract shift and it logs out in the middle of the day. skip on a curling team, went to the brier once, we talked curling for ten minutes. nothing to send her really. nice."
+    },
+    {
+      "note_id": "V08",
+      "recorded_at": "2027-02-09 14:31",
+      "length_seconds": 21,
+      "transcript": "big mike from oromocto, the huge guy, three locations on clean evo. the no shows are killing him. wants to see it, get nadia to take him through it. played hockey with sam in antigonish way back, funny."
+    },
+    {
+      "note_id": "V09",
+      "recorded_at": "2027-02-09 15:02",
+      "length_seconds": 16,
+      "transcript": "nadia just came by, she had a long one in french with a physio from caraquet, mirelle or marielle ash ay, on pract shift, contract's up in june. nadia told her we'd ring after march break. nadia's got the card."
+    },
+    {
+      "note_id": "V10",
+      "recorded_at": "2027-02-10 09:24",
+      "length_seconds": 12,
+      "transcript": "steve lau from grandview came by, five sites. says hi to nadia. didn't want anything new, just catching up."
+    },
+    {
+      "note_id": "V11",
+      "recorded_at": "2027-02-10 10:18",
+      "length_seconds": 21,
+      "transcript": "yvonne clark, saint john, the same yvonne from toronto. she said nobody ever got back to her about the demo and she laughed but ouch. still wants it. her mom passed in the fall so it's been a year for her. get her in with nadia this time."
+    },
+    {
+      "note_id": "V12",
+      "recorded_at": "2027-02-10 10:36",
+      "length_seconds": 17,
+      "transcript": "annick from bouctouche, massage, french on her badge but we did the whole thing in english, her english is better than mine. paper book, two RMTs. wants to try it for a couple weeks, I said I'd get her set up."
+    },
+    {
+      "note_id": "V13",
+      "recorded_at": "2027-02-10 12:55",
+      "length_seconds": 18,
+      "transcript": "sanjay mayta, halifax, mehta rehab. I did the first bit with him then he had all these reporting questions so I walked him over to nadia, she took it from there. she's got the card. it's hers now."
+    },
+    {
+      "note_id": "V14",
+      "recorded_at": "2027-02-10 15:48",
+      "length_seconds": 15,
+      "transcript": "okay that's it for moncton. the scanner quit on me for about an hour after lunch today, so anyone from then is just a card in my bag. nadia's got a few cards too. list tonight at the hotel."
+    }
+  ],
+  "owen_list": {
+    "written": "2027-02-10 21:05, at the hotel in Moncton",
+    "title": "moncton - who i remember",
+    "lines": [
+      {
+        "line_id": "L01",
+        "text": "MB @ Tantramar - show her the software, bring leads"
+      },
+      {
+        "line_id": "L02",
+        "text": "Alain / Riverview - $ per clinician"
+      },
+      {
+        "line_id": "L03",
+        "text": "big Mike Oromocto - 3 sites"
+      },
+      {
+        "line_id": "L04",
+        "text": "kent county lady, the curling one - 2 spots"
+      },
+      {
+        "line_id": "L05",
+        "text": "Tanya B - numbers + trial??"
+      },
+      {
+        "line_id": "L06",
+        "text": "Dominic S - ring him april. lease. dont push"
+      },
+      {
+        "line_id": "L07",
+        "text": "Yvonne Clarke AGAIN - still no demo from TO. my bad"
+      },
+      {
+        "line_id": "L08",
+        "text": "Shediac? chiro w the red van - wants numbers"
+      },
+      {
+        "line_id": "L09",
+        "text": "Sam? Stan? sackville - 2 clinics - clinivo"
+      },
+      {
+        "line_id": "L10",
+        "text": "Grand Falls group - the privacy thing for the board"
+      }
+    ]
+  }
+}

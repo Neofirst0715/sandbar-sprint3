@@ -1,0 +1,91 @@
+scan_id,scanned_at,scanned_by,first_name,last_name,title,company,email,phone,city,province,share_with_exhibitors,rating,notes
+S001,2027-04-13 09:18,Owen (iPad),Wayne,Lohnes,Owner,Mahone Massage Clinic,wlohnes@mahonemassage.example.ca,902-555-0131,Mahone Bay,NS,Y,,solo | excel | just browsing | send info
+S002,2027-04-13 09:24,Owen (iPad),Asha,Tilley,"Student, Massage Therapy",Fundy Coast College,asha.tilley@fundycoastcollege.example.ca,902 555 0113,Halifax,NS,Y,,
+S003,2027-04-13 09:30,Nadia (phone),Beth,Mosher,Physiotherapist,Lobster Trap Physio,beth.mosher@lobstertrapphysio.example.ca,902 555 0141,Liverpool,NS,Y,,
+S004,2027-04-13 09:36,Owen (iPad),Imran,Qureshi,Director of Operations,Bluenose Rehab Group,iqureshi@bluenoserehab.example.com,902-555-0191,Bridgewater,NS,Y,A,BLUENOSE 5 clinics!!!
+S005,2027-04-13 09:44,Nadia (phone),PETRA,SAULNIER,Kinesiology student,Evangeline University,petra.saulnier@evangelineuniversity.example.com,902-555-0110,Wolfville,NS,Y,,
+S006,2027-04-13 09:52,Nadia (phone),Paul,Greer,Practice Manager,Fundy Rehab Centre,paul@fundyrehab.example.com,506-555-0178,Saint John,NB,Y,,"single clinic, clinivo user, friday cancellations"
+S007,2027-04-13 09:59,Owen (iPad),Lindsay,Shaw,Account Executive,Clinivo,lindsay.shaw@clinivo.example.com,(647) 555-0144,Toronto,ON,Y,,comp - Clinivo rep
+S008,2027-04-13 10:06,Owen (iPad),Leona,Burt,Physiotherapist,Bay Roberts Physio,lburt@bayrobertsphysio.example.ca,709-555-0187,Bay Roberts,NL,Y,C,single clinic / gcal / happy w paper for now | send info
+S009,2027-04-13 10:15,Owen (iPad),Luc,Boudreau,"Student, Physiotherapist Assistant program",Chebucto Institute,luc.boudreau@chebuctoinstitute.example.ca,506.555.0183,Moncton,NB,Y,,
+S010,2027-04-13 10:24,Owen (iPad),Rémi,Thériault,"Massothérapeute, propriétaire",Massothérapie Chéticamp,remi@massocheticamp.example.ca,902-555-0138,Chéticamp,NS,Y,C,
+S011,2027-04-13 10:33,Owen (iPad),Stewart,Mosher,Clinic Owner,Sambro Physio,stewart.mosher@sambrophysio.example.ca,902-555-0133,Sambro,NS,Y,,draw
+S012,2027-04-13 10:43,Owen (iPad),Yolande,Muise,Clinic Manager,Meteghan Sports Physio,ymuise@meteghanphysio.example.com,902-555-0179,Meteghan,NS,Y,C,"1 loc / paper book / new grad, opening clinic later"
+S013,2027-04-13 10:51,Owen (iPad),Celeste,Hebb,RMT,Marram Massage Clinic,celeste.hebb@marrammassage.example.com,902 555 0197,Chester,NS,Y,,
+S014,2027-04-13 11:02,Owen (iPad),Katherine,Melanson,"Clinical Director, Physiotherapist",Harbourline Physiotherapy,katherine.melanson@harbourlinephysio.example.ca,902-555-0141,Halifax,NS,Y,A,4 sites hfx/dartmouth - bookstead
+S015,2027-04-13 11:12,Owen (iPad),Tobin,Rideout,"Student, Massage Therapy",Fundy Coast College,tobin_rideout@fundycoastcollege.example.com,(902) 555-0151,Darmouth,NS,Y,,
+S016,2027-04-13 11:20,Nadia (phone),Dean,Wentzell,Account Manager,Beacon Mutual Insurance,dean.wentzell@beaconmutual.example.com,902 555 0150,Halifax,NS,Y,,draw entry
+S017,2027-04-13 11:30,Owen (iPad),Bev,Tuttle,Practice Manager,Hantsport Physio,bev.tuttle@hantsportphysio.example.ca,902-555-0154,Hantsport,NS,Y,C,
+S018,2027-04-13 11:40,Owen (iPad),Amy,Dort,Front Desk,Harbourline Physiotherapy,amy.dort@harbourlinephysio.example.ca,902-555-0149,Halifax,NS,Y,,draw - didnt talk
+S019,2027-04-13 11:48,Owen (iPad),Bernadette,Pyke,"Owner, Physiotherapist",Pyke Sports Physio,bernie@pykesportsphysio.example.ca,709-555-0133,Corner Brook,NL,Y,C,demo?
+S020,2027-04-13 12:12,Owen (iPad),Serena,Yip,Practice Manager,Hollis Street Physio,serena@hollisstphysio.example.com,902-555-0129,Halifax,NS,N,B,
+S021,2027-04-13 12:20,Nadia (phone),TERESA,WHEBBY,Physiotherapist,Sable Island Physio,teresa_whebby@sableislandphysio.example.ca,902.555.0122,Sydney,NS,Y,,
+S022,2027-04-13 12:31,Owen (iPad),Jocelyn,Hartery,"RMT, Owner",Quiet Cove Massage,jocelyn@quietcovemassage.example.ca,902-555-0176,Lunenburg,NS,Y,,
+S023,2027-04-13 12:44,Nadia (phone),Mina,Sheppard,Kinesiology student,Evangeline University,mina.sheppard@evangelineuniversity.example.ca,902.555.0123,Halifax,NS,Y,,student
+S024,2027-04-13 12:52,Owen (iPad),Ned,Foote,Physiotherapist,Spindrift Rehab Centre,nedfoote@spindriftrehab.example.ca,709-555-0175,Gander,NL,N,,
+S025,2027-04-13 13:02,Owen (iPad),Holly,Zwicker,Marketing Coordinator,Apex Tape Supply,holly_zwicker@apextapesupply.example.com,(902) 555-0148,Bedford,NS,N,,
+S026,2027-04-13 13:12,Owen (iPad),Stella,Aucoin,Front Desk Lead,Seabright Physiotherapy,saucoin@seabrightphysio.example.ca,902-555-0163,Bedford,NS,Y,B,"front desk lead, owner decides"
+S027,2027-04-13 13:24,Owen (iPad),Lorraine,Whynot,"RMT, Owner",Whynot Massage Collective,lorraine@whynotmassage.example.ca,902-555-0103,Kentville,NS,Y,B,
+S028,2027-04-13 13:33,Owen (iPad),JOEL,HATT,"Student, Physiotherapist Assistant program",Chebucto Institute,joelhatt@chebuctoinstitute.example.ca,(902) 555-0176,Halifax,NS,N,,
+S029,2027-04-13 13:46,Nadia (phone),Gary,Melanson,"RMT, Owner",Melanson Massage Therapy,gary@melansonmassage.example.ca,902-555-0166,Digby,NS,Y,,
+S030,2027-04-13 13:53,Owen (iPad),Marla,Peach,RMT,Saltmarsh Massage,marla.peach@saltmarshmassage.example.ca,506 555 0110,Sackville,NB,Y,,espresso draw
+S031,2027-04-13 14:02,Nadia (phone),Geneviève,Cormier,"Physiothérapeute, propriétaire",Physio Baie-Sainte-Marie,genevieve@physiobaiesm.example.ca,902-555-0183,Church Point,NS,Y,,
+S032,2027-04-13 14:12,Owen (iPad),Hector,Pineo,RMT,Pineo Massage,hector.pineo@pineomassage.example.ca,902 555 0108,Wolfville,NS,Y,,
+S033,2027-04-13 14:21,Nadia (phone),Tessa,Burgoyne,Owner,Gaspereau Massage Clinic,tessa@gaspereaumassage.example.ca,902-555-0122,Wolfville,NS,Y,,2 sites | gcal | send brochure
+S034,2027-04-13 14:32,Owen (iPad),Karen,Oulton,Clinic Manager,Pugwash Therapeutic Massage,koulton@pugwashmassage.example.ca,902-555-0102,Pugwash,NS,Y,C,excel
+S035,2027-04-13 14:41,Owen (iPad),Dana,Pottier,"Student, Massage Therapy",Fundy Coast College,dana.pottier@fundycoastcollege.example.ca,902.555.0135,Yarmouth,NS,Y,,
+S036,2027-04-13 14:48,Owen (iPad),Wendell,Cho,"Partner, Finance",Harbourline Physiotherapy,wendell.cho@harbourlinephysio.example.ca,902-555-0142,Halifax,NS,Y,A,Wendell - Harbourline (kates partner?) - $ per physio
+S037,2027-04-13 15:02,Owen (iPad),Anne-Marie,Kennedy,Physiotherapist,Lochside Physio,annemarie@lochsidephysio.example.ca,902-555-0185,New Glasgow,NS,Y,C,
+S038,2027-04-13 15:11,Nadia (phone),Jill,Tufts,Kinesiologist,Dory Wellness Centre,jill_tufts@dorywellness.example.ca,(902) 555-0129,Kentville,NS,Y,,
+S039,2027-04-13 15:18,Owen (iPad),Bea,Lockhart,Office Manager,Annapolis Basin Massage,bea@annapolisbasinmassage.example.ca,902-555-0136,Annapolis Royal,NS,Y,,
+S040,2027-04-13 15:21,Owen (iPad),Ewan,Sharpe,"Owner, Physiotherapist",Portside Physio,ewan@portsidephysio.example.ca,902-555-0115,Sackville,NS,Y,B,"2 locs, clinivo, $$"
+S041,2027-04-13 15:30,Owen (iPad),Sean,Hartlen,Physiotherapist,Sou'wester Physio,sean.hartlen@souwesterphysio.example.ca,902-555-0104,Shelburne,NS,Y,,
+S042,2027-04-13 15:40,Owen (iPad),Joanne,Ricketts,Clinic Manager,Sandy Point Physio,joanne.ricketts@sandypointphysio.example.ca,709-555-0167,Stephenville,NL,Y,B,
+S043,2027-04-13 15:47,Owen (iPad),Scott,Bezanson,RMT,Bezanson Massage Therapy,scott@bezansonmassage.example.ca,902-555-0118,Wolfville,NS,Y,C,
+S044,2027-04-13 16:02,Owen (iPad),Gerard,Vokey,Clinic Manager,Trinity Bay Physio,gerard.v@trinitybayphysio.example.ca,709-555-0144,Clarenville,NL,Y,A,3 sites / paper / info for owner
+S045,2027-04-13 16:11,Owen (iPad),Nolan,Crewe,"Owner, Physiotherapist",Arichat Physio,nolan@arichatphysio.example.ca,902-555-0113,Arichat,NS,N,C,
+S046,2027-04-13 16:18,Owen (iPad),Reid,Barkhouse,Kinesiology student,Evangeline University,reidbarkhouse@evangelineuniversity.example.com,902-555-0187,Windsor,NS,Y,,
+S047,2027-04-13 16:24,Owen (iPad),Arthur,Gosse,Territory Manager,SteadyStep Orthotics,arthur.gosse@steadysteporthotics.example.ca,506.555.0159,Moncton,NB,Y,,exhibitor (orthotics booth)
+S048,2027-04-13 16:30,Nadia (phone),ERIC,MUNDEN,Front Desk,Lupin Massage Clinic,eric.munden@lupinmassage.example.com,902-555-0175,Darmouth,NS,Y,,
+S049,2027-04-14 09:06,Owen (iPad),Paula,Himmelman,RMT,Bluff Road Massage,paulahimmelman@bluffroadmassage.example.ca,902-555-0168,Halifax,NS,Y,,
+S050,2027-04-14 09:14,Owen (iPad),Terry,Gillespie,Clinical Director,Ironbridge Health Group,terry.gillespie@ironbridgehealth.example.ca,506-555-0164,Riverview,NB,Y,A,ironbridge 3 sites
+S051,2027-04-14 09:22,Nadia (phone),Ivy,Sooley,"Student, Physiotherapist Assistant program",Chebucto Institute,ivy_sooley@chebuctoinstitute.example.ca,709.555.0181,St. John's,NL,Y,,
+S052,2027-04-14 09:33,Owen (iPad),Alicia,Stairs,Clinic Manager,Citadel Hill Physio,alicia.stairs@citadelhillphysio.example.ca,902-555-0151,Halifax,NS,Y,C,1 loc | on bookstead | send one pager
+S053,2027-04-14 09:41,Nadia (phone),Wayne,Lohnes,Owner,Mahone Massage Clinic,wlohnes@mahonemassage.example.ca,902-555-0131,Mahone Bay,NS,Y,,came back
+S054,2027-04-14 09:50,Owen (iPad),Hamish,Rudderham,Front Desk Lead,Cabot Trail Physio,hrudderham@cabottrailphysio.example.ca,902-555-0196,Baddeck,NS,Y,B,on Clinivo
+S055,2027-04-14 09:58,Owen (iPad),Pam,Eisener,Exhibitor,TheraGlow Products,pam_eisener@theraglowproducts.example.com,902.555.0194,Dartmouth,NS,Y,,
+S056,2027-04-14 10:06,Nadia (phone),Katherine,Melanson,"Clinical Director, Physiotherapist",Harbourline Physiotherapy,katherine.melanson@harbourlinephysio.example.ca,902-555-0141,Halifax,NS,Y,,kate again!! demo w/ her clinic leads
+S057,2027-04-14 10:11,Owen (iPad),Moira,Hickey,"Owner, RMT",Foundry Massage Therapy,moira@foundrymassage.example.ca,902-555-0127,Pictou,NS,Y,C,moving in june
+S058,2027-04-14 10:29,Nadia (phone),Ken,Eddy,Physiotherapist,Ferryboat Physio,ken_eddy@ferryboatphysio.example.com,902-555-0174,Dartmouth,NS,Y,,
+S059,2027-04-14 10:44,Owen (iPad),Russell,Tanner,"Owner, Physiotherapist",Cobequid Rehab,rtanner@cobequidrehab.example.ca,902-555-0172,Truro,NS,Y,A,cobequid 3 sites truro
+S060,2027-04-14 10:52,Owen (iPad),Thomas,Sampson,"Owner, Physiotherapist",Sampson Physiotherapy,thomas@sampsonphysio.example.ca,902-555-0158,Bridgewater,NS,Y,C,
+S061,2027-04-14 11:02,Nadia (phone),Nicole,Boudreau,Physiotherapist,Tusket Physio,nboudreau@tusketphysio.example.ca,902-555-0188,Yarmouth,NS,Y,,"1 loc, sheets, not ready"
+S062,2027-04-14 11:12,Owen (iPad),Omar,Dawe,"Student, Massage Therapy",Fundy Coast College,omar.dawe@fundycoastcollege.example.ca,902-555-0138,Darmouth,NS,Y,,swag
+S063,2027-04-14 11:21,Owen (iPad),Marc,Boudreau,"Owner, Physiotherapist",Boudreau Physio,marc@boudreauphysio.example.ca,506-555-0108,Shippagan,NB,Y,C,
+S064,2027-04-14 11:30,Nadia (phone),Rob,Corkum,Account Manager,Beacon Mutual Insurance,robcorkum@beaconmutual.example.ca,902-555-0178,Halifax,NS,Y,,
+S065,2027-04-14 11:38,Owen (iPad),Callum,Doyle,"Owner, Physiotherapist",Doyle Physiotherapy,callum@doylephysio.example.ca,902-555-0119,Antigonish,NS,Y,C,WANTS DEMO
+S066,2027-04-14 11:49,Owen (iPad),Ruth,Keough,"Owner, Physiotherapist",Burin Physio,ruth@burinphysio.example.ca,709-555-0159,Marystown,NL,Y,C,1 loc | paper | wants privacy sheet for college audit
+S067,2027-04-14 11:55,Owen (iPad),Rosa,Teed,Clinic Owner,Beachcomber Rehab,rosa.teed@beachcomberrehab.example.ca,(506) 555-0178,Shediac,NB,N,,draw - didnt talk
+S068,2027-04-14 12:03,Nadia (phone),Olive,Pardy,Clinic Manager,Placentia Physio,olive.pardy@placentiaphysio.example.ca,709-555-0121,Placentia,NL,N,,solo - spreadsheet - retiring in 2 yrs?
+S069,2027-04-14 12:11,Owen (iPad),Tanis,Veniot,Account Executive,Pracshift,tanis.veniot@pracshift.example.com,(416) 555-0198,Toronto,ON,Y,,
+S070,2027-04-14 12:18,Owen (iPad),Darren,Noseworthy,Director of Operations,Signal Hill Rehab,dnoseworthy@signalhillrehab.example.ca,709-555-0110,St. John's,NL,Y,A,3 sites | BS user | bookstead price went up | info for owner
+S071,2027-04-14 12:21,Nadia (phone),Alvin,Cole,Physiotherapist,Elmsdale Physio,acole@elmsdalephysio.example.ca,902-555-0106,Elmsdale,NS,Y,,"1 loc, paper, not ready"
+S072,2027-04-14 13:42,Owen (iPad),Vic,Comeau-Shea,RMT,Kittiwake Massage,vic.comeaushea@kittiwakemassage.example.ca,709 555 0143,Grand Falls-Windsor,NL,Y,,
+S073,2027-04-14 13:48,Owen (iPad),BREE,COLLICUTT,Kinesiology student,Evangeline University,bree.collicutt@evangelineuniversity.example.ca,902.555.0132,Truro,NS,Y,,
+S074,2027-04-14 13:56,Owen (iPad),Cora,Frizzell,Front Desk,Lamplight Physio,cora_frizzell@lamplightphysio.example.ca,(902) 555-0101,Charlottetown,PE,Y,,
+S075,2027-04-14 14:04,Nadia (phone),Alma,Trask,Physiotherapist,Blomidon Rehab Centre,alma.trask@blomidonrehab.example.com,902-555-0103,Canning,NS,Y,,
+S076,2027-04-14 14:12,Nadia (phone),Gerard,Vokey,Clinic Manager,Trinity Bay Physio,gerard.v@trinitybayphysio.example.ca,709-555-0144,Clarenville,NL,Y,,again - said hi
+S077,2027-04-14 14:20,Nadia (phone),Noel,Ryan,"Student, Massage Therapy",Fundy Coast College,noel_ryan@fundycoastcollege.example.com,(506) 555-0154,Sackville,NB,Y,,
+S078,2027-04-14 14:30,Owen (iPad),Fay,Hubley,Owner,Hubbards Massage,fay@hubbardsmassage.example.ca,902-555-0147,Hubbards,NS,N,,
+S079,2027-04-14 14:37,Owen (iPad),Dale,Ettinger,RMT,Tidemark Massage Clinic,daleettinger@tidemarkmassage.example.ca,902.555.0180,Windsor,NS,Y,,
+S080,2027-04-14 14:41,Owen (iPad),Mitch,Rogers,"Owner, Physiotherapist",Tantallon Physio,mitch@tantallonphysio.example.ca,902-555-0145,Tantallon,NS,Y,C,
+S081,2027-04-14 14:52,Nadia (phone),Karen,Oulton,Clinic Manager,Pugwash Therapeutic Massage,koulton@pugwashmassage.example.ca,902-555-0102,Pugwash,NS,Y,,again - said hi
+S082,2027-04-14 14:58,Owen (iPad),Kit,Larder,Physiotherapist,Gulf Shore Physio,kit.larder@gulfshorephysio.example.ca,902.555.0181,Tatamagouche,NS,Y,,
+S083,2027-04-14 15:02,Owen (iPad),Sheila,Roach,"RMT, Owner",Glace Bay Massage Clinic,sheila@glacebaymassage.example.ca,902-555-0194,Glace Bay,NS,Y,,
+S084,2027-04-14 15:12,Nadia (phone),Sadie,Veno,Front Desk,Pier 21 Wellness,sadie_veno@pier21wellness.example.ca,902.555.0165,Halifax,NS,Y,,
+S085,2027-04-14 15:18,Owen (iPad),Sandra,Kaizer,Front Desk Lead,Fall River Physio,sandra.kaizer@fallriverphysio.example.ca,902-555-0174,Fall River,NS,Y,C,
+S086,2027-04-14 15:26,Owen (iPad),Greta,Hatfield,"Student, Physiotherapist Assistant program",Chebucto Institute,greta.hatfield@chebuctoinstitute.example.ca,902.555.0120,Halifax,NS,Y,,
+S087,2027-04-14 15:33,Nadia (phone),Russell,Tanner,"Owner, Physiotherapist",Cobequid Rehab,rtanner@cobequidrehab.example.ca,902-555-0172,Truro,NS,Y,,"russ again, wants demo"
+S088,2027-04-14 15:38,Owen (iPad),Harold,Murray,Physiotherapist,Northumberland Physio,harold.murray@northumberlandphysio.example.ca,506 555 0164,Miramichi,NB,Y,,
+S089,2027-04-14 15:44,Owen (iPad),Kyle,Purdy,Event Staff,Atlantic Practice Expo,kyle_purdy@atlanticpracticeexpo.example.ca,902-555-0199,Halifax,NS,Y,,
+S090,2027-04-14 15:52,Owen (iPad),LENA,STODDARD,RMT,Harvest Moon Massage,lena.stoddard@harvestmoonmassage.example.com,902 555 0161,Berwick,NS,Y,,swag - didnt talk
